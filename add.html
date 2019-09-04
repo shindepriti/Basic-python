@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+Enter Number 1<input id="first"><br>
+Enter Number 2<input id="second"><br>
+<button type="button" onclick="myAdd()">ADD</button>
+<input id="demo">
+</body>
+
+
+<script>
+function myAdd(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a + b;
+document.getElementById("demo").value= c;
+}
+</script>
+
+
+</html>
